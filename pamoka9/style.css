@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ecf0f1;
+  font-family: Arial, sans-serif;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.btn-3d {
+  background: linear-gradient(to bottom, #4facfe, #00f2fe);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #2980b9;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-3d:active {
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(3px);
+}

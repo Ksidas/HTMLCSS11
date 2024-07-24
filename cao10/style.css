@@ -1,0 +1,48 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #34495e;
+}
+th,
+tr {
+  border: 1px solid black;
+  padding: 13px;
+  text-align: center;
+}
+.page-wrapper {
+  background-color: #202739;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 10px;
+}
+.f {
+  color: rgb(50, 50, 185);
+  padding-right: 1px;
+}
+.r {
+  color: yellow;
+}
+
+h3 {
+  color: red;
+}
+
+.win {
+  background-color: rgb(134, 200, 35);
+  color: beige;
+}
+.form span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 2px;
+  border-radius: 4px;
+  font-weight: bold;
+}

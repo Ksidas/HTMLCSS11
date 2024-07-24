@@ -1,0 +1,45 @@
+/* General reset for buttons */
+button {
+  border: none; /* Remove default border */
+  outline: none; /* Remove outline on focus */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Styling for the 3D blue button */
+.blue-button {
+  background: linear-gradient(
+    to bottom,
+    #007bff,
+    #0056b3
+  ); /* Create a gradient from light to dark blue */
+  color: white; /* Set text color to white */
+  padding: 15px 30px; /* Add padding for a better appearance */
+  border-radius: 5px; /* Slightly round the corners */
+  font-size: 16px; /* Set font size */
+  font-weight: bold; /* Make the text bold */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+    /* Shadow for depth */ 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.blue-button:hover {
+  transform: translateY(-2px); /* Move button up slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3),
+    /* Increase shadow for depth */ 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Active effect */
+.blue-button:active {
+  transform: translateY(2px); /* Move button down slightly on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),
+    /* Reduce shadow when active */ 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .blue-button {
+    width: 100%; /* Make button full width on smaller screens */
+    font-size: 18px; /* Increase font size on smaller screens */
+  }
+}
