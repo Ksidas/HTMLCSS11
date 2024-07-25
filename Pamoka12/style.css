@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header {
   display: flex;
   background-image: url(building3-1.jpg);
@@ -17,8 +22,34 @@ h4 {
   background-color: transparent;
   color: white;
   padding: 10px 20px;
+  cursor: pointer;
 }
 h1 {
   font-size: 55px;
   margin-bottom: 10px;
+  text-shadow: black;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.left {
+  width: 50%;
+  height: 500px;
+  background-image: url(buld.jpg);
+  background-size: cover;
+  margin: 5px;
+}
+.right {
+  width: 50%;
+  height: 500px;
+  padding-left: 2rem;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
