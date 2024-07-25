@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  background-image: url(building3-1.jpg);
+  background-size: cover;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1,
+h4 {
+  color: white;
+}
+.btn {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+}
+h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
